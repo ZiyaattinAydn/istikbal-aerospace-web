@@ -132,7 +132,7 @@ export function PageEditor({
         if (element) {
           element.closest("details")?.setAttribute("open", "");
           element.scrollIntoView({ behavior: "smooth", block: "center" });
-          element.querySelector<HTMLTextAreaElement | HTMLSelectElement>("textarea,select")?.focus();
+          element.querySelector<HTMLElement>("textarea,select")?.focus();
         } else {
           setQuery("");
         }

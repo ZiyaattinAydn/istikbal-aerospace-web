@@ -1,5 +1,8 @@
 node_modules/
 .next/
+.cloudflare/
+.vinext/
+dist/
 out/
 .env*
 !.env.example
