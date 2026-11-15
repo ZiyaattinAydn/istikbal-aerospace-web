@@ -1,0 +1,3 @@
+İstikbal CMS staging doğrulaması
+staging_candidate=e7b68a71aea978f7d2fc25b87a9f4fe72604c9e6
+status=ready-for-worker-acceptance
